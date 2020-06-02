@@ -1,0 +1,13 @@
+build
+q.spec
+q.1
+*.pyc
+.vagrant
+rpm_build_area
+*.deb
+setup.exe
+win_output
+win_build
+packages
+.idea/
+dist/windows/

@@ -13,37 +13,4 @@ for running query on the csv.
 
 1) Navigate to the binary inside q-2.0.9/bin/q folder
 2) sample query ./q-2.0.9/bin/q "SELECT c7,count(c7) FROM output.csv GROUP BY c7" 
-  output: 
-    /v1/client_settings 8
-    /v1/compare_faces_sync 10
-    /v1/images 31
-    /v1/read_id_card_info_sync 11
-    /v1/verify_face_liveness_sync 13
-    /v1/verify_id_card_sanity_sync 21
-    /v1/verify_portrait_sanity_sync 6
 3) ./q-2.0.9/bin/q "SELECT c2,count(c2) FROM output.csv GROUP BY c2"  
-   output: 
-    HUAWEI_AUM-AL20 3
-    OPPO_A1601 11
-    OPPO_CPH1819 1
-    OPPO_CPH1881 4
-    Realme_RMX1911 1
-    Realme_RMX1921 1
-    Samsung_SM-A505F 3
-    Samsung_SM-A750F 3
-    Samsung_SM-G570F 3
-    Samsung_SM-G615F 2
-    Vivo_1718 1
-    Vivo_1802 4
-    Vivo_1818 17
-    Vivo_1819 4
-    Vivo_1904 5
-    Vivo_1906 1
-    Vivo_1907 4
-    Vivo_V3 3
-    Xiaomi_Mi_A1 10
-    Xiaomi_Redmi_6_Pro 3
-    Xiaomi_Redmi_8A_Dual 3
-    Xiaomi_Redmi_Note_7S 7
-    Xiaomi_Redmi_Note_7_Pro 6
-
